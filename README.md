@@ -8,10 +8,7 @@ This repository contains a Verilog implementation of a UART (Universal Asynchron
 - [Modules](#modules)
   - [Transmitter (Tx)](#transmitter-tx)
   - [Receiver (Rx)](#receiver-rx)
-- [Usage](#usage)
-- [Simulation](#simulation)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -40,9 +37,3 @@ The Receiver module is responsible for converting the received serial bit stream
 - **Edge Bit Counter**: Counts bits for proper data sampling.
 - **Data Sampler**: Samples the received data bits at the right time.
 
-## Usage
-
-1. Clone the repository:
-
-   ```sh
-   git clone https://github.com/your-username/uart-rx-tx-verilog.git
